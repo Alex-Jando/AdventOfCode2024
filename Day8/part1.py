@@ -4,19 +4,6 @@ from itertools import permutations
 with open("input.txt", "r") as file:
     data = file.readlines()
 
-# data = [
-#     "..........",
-#     "..........",
-#     "..........",
-#     "....a.....",
-#     "..........",
-#     ".....a....",
-#     "..........",
-#     "..........",
-#     "..........",
-#     "..........",
-# ]
-
 grid = [[c for c in line.strip()] for line in data]
 
 R = len(grid)
