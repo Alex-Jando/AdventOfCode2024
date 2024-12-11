@@ -31,5 +31,4 @@ for _ in range(75):
             new_counts[new_stone] += count
     stone_counts = new_counts
 
-answer = sum(num for num in stone_counts.values())
-print(answer)
+print(sum(stone_counts.values()))
